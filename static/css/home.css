@@ -1,0 +1,18 @@
+.form-layout{
+    margin: 100%;
+    padding: 10px;
+    width: 100%;
+    background:rgba(193, 192, 190, 0.5);
+    border-radius: 15px ;
+}
+
+.download{
+    
+    margin-left: 50px ;
+    
+}
+
+h2{
+    margin: 50px;
+    padding: 20px;
+}

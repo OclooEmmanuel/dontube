@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% load static %}
+{% block stylesheet %}
+    <link rel="stylesheet" href="{% static "css/home.css" %}">  
+{% endblock  %}
+
+
+
+{% block content %}
+
+<div class='container w-50 ml-5 mt-5 shadow form-layout'>
+    <h2>Download YouTube Video and Audio </h2>
+    <form action="" method='post' class=" d-flex align-items-center ">
+        {% csrf_token %}
+
+        {{form.urlbox}}
+
+        <button type = 'submit' class= 'btn btn-danger p-3 '><i class="fa-regular fa-circle-down">&nbsp;Download</i></button>
+    </form>
+</div>
+
+
+{% endblock  %}
+
